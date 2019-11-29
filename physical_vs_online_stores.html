@@ -5,12 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Physical vs Online Stores by Rubén</title>
-    <style>body {color:white; background-color:rgb(75,75,75); font-family:Arial, Helvetica, sans-serif;}
-            h1 {color:yellow;}
-            a {color: lightblue;}</style>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style>
+            .price {margin:2px;
+                border:2px dashed black;
+                height:200px;}
+                .class_box {
+                .index_box {border: 2px dashed black;}
+    
+
+    </style>
 </head>
 <body>
     <h1 align="center">Physical vs Online Stores by Rubén</h1>
+    <div class="index_box">
+        <ol><h2>Index</h2>
+            <li>Introduction</li>
+            <li>Prices</li>
+            <li>Shipping</li>
+            <li>Other things</li>
+            </ol>
+    </div>
     <h2>Introduction</h2>
     <p>In this page I'm going to compare physical stores and online stores.
         <ul>The two stores I chosed are:
@@ -25,16 +40,16 @@
     <h2>Prices</h2>
     <h3>Physical Store</h3>
     <p>These are the prices of a phone, a pair of shoes, a fridge and a laptop in a physical store.</p>
-    <img src="images/physical_prize1.png" height="250" alt="Xiaomi Mi A3 on El Corte Inglés">
-    <img src="images/physical_prize2.png" height="250" alt="Adidas Superstar on El Corte Inglés">
-    <img src="images/physical_prize3.png" height="250" alt="Bosch fridge on El Corte Inglés">
-    <img src="images/physical_prize4.png" height="250" alt="Apple MacBook Pro on El Corte Inglés">
+    <div class="prices-images"><img class="price" src="images/physical_prize1.png" alt="Xiaomi Mi A3 on El Corte Inglés">
+    <img class="price" src="images/physical_prize2.png" alt="Adidas Superstar on El Corte Inglés">
+    <img class="price" src="images/physical_prize3.png" alt="Bosch fridge on El Corte Inglés">
+    <img class="price" src="images/physical_prize4.png" alt="Apple MacBook Pro on El Corte Inglés"></div>
     <h3>Online Store</h3>
     <p>And these are the prices of the same products but in an online store.</p>
-    <img src="images/online_prize1.png" height="250" alt="Xiaomi Mi A3 on Amazon">
-    <img src="images/online_prize2.png" height="250" alt="Adidas Superstar on Amazon">
-    <img src="images/online_prize3.png" height="250" alt="Bosch fridge on Amazon">
-    <img src="images/online_prize4.png" height="250" alt="Apple MacBook Pro on Amazon"><br>
+    <div class="prices-images"><img class="price" src="images/online_prize1.png" height="250" alt="Xiaomi Mi A3 on Amazon">
+    <img class="price" src="images/online_prize2.png" alt="Adidas Superstar on Amazon">
+    <img class="price" src="images/online_prize3.png" alt="Bosch fridge on Amazon">
+    <img class="price" src="images/online_prize4.png" alt="Apple MacBook Pro on Amazon"></div><br>
 
     <br><p>Comparing both of them:</p>
     <table>
@@ -50,6 +65,7 @@
                 <td><strong>Phone</strong></td>
                 <td>249,90€</td>
                 <td>165,50€</td>
+                <td>34% cheaper online</td>
             </tr>
             <tr>
                 <td><strong>Shoes</strong></td>
@@ -60,22 +76,27 @@
                 <td><strong>Fridge</strong></td>
                 <td>499€</td>
                 <td>489€</td>
+                <td>2% cheaper online</td>
             </tr>
             <tr>
                 <td><strong>Laptop</strong></td>
                 <td>1889,10€</td>
                 <td>1747,79€</td>
+                <td>7% cheaper online</td>
             </tr>
         </tbody>
     </table>
     <h2>Shipping</h2>
     <h3>Physical Store</h3>
     <ul>
-        <li><strong>Phone, Shoes, Laptop:</strong> If they're avaliable in the store, you can buy it and take it at the same moment.</li>
-        <li><strong>Fridge:</strong> In this case, I think it may be a good option that the store sends you the fridge instead of taking it by yourself. It takes 1 or 2 laboral days.</li>
+        <li><strong>Phone, Shoes, Laptop:</strong> If they're avaliable in the store, you can buy and take them at the same moment.</li>
+        <li><strong>Fridge:</strong> In this case, I think it may be a good option that the store sends you the fridge instead of taking it by yourself. It takes 10 laboral days.</li>
     </ul>
     <h3>Online Store</h3>
-
+    <ul>
+        <li><strong>Phone, Shoes, Laptop:</strong>It can take from 2 to 3 days</li>
+        <li><strong>Fridge:</strong></li> 
+    </ul>
     <h2>Other things</h2>
     <p>There are also extra things different between an online and a physical stores:</p>
     <ul>
